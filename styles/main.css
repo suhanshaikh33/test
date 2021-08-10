@@ -7,7 +7,9 @@
 ul li {
     list-style: none;
 }
-
+.none{
+    display: none;
+}
 section
 {
  height: 100vh;   
@@ -114,6 +116,9 @@ nav li{
     margin-top: 40px;
     
 }
+.card > div > :nth-child(2){
+    padding: 10px 0;
+}
 
 
 
@@ -156,20 +161,28 @@ nav li{
 .customer-section{
     width: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .customer-section img{
     width: 80%;
-    height: 50%;
 }
 .customer-section :last-child{
-    padding-top: 3%;
+    padding-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .customer-section :last-child a{
     border: 1px solid black;
     border-radius: 20px;
     padding: 10px;
 }
-
+.customer-section > :nth-child(2) img {
+    margin: 0 auto;
+}
 
 
 

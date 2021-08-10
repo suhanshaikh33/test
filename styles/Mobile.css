@@ -39,6 +39,7 @@
     .company-info{
         height: 100vh;
         font-family: 'Quicksand','san-serif';
+        align-items: center;
     }
     .company-info :only-child{
         width: 90%;
@@ -58,7 +59,10 @@
         
     }
     .about-wrapper h2{text-align: center;}
-
+    .card-section{
+        height: auto;
+        padding-bottom: 10px;
+    }
     /* Client section */
     
     
@@ -68,7 +72,17 @@
         font-size: 12px;
         width: 90%;
     }
-    
+    .customer-section{
+        display: flex;
+        flex-direction: column;
+        font-size: 3vw;
+    }
+    .customer-section img{
+        width: 100%;
+    }
+    .customer-section > :last-child a  {
+        margin-top: 13px;
+    }
     
     /* footer section */
     

@@ -19,7 +19,24 @@
     }
     nav > :last-child{margin-right: 0;} 
 
+    /* Comapny info */
+    .company-info
+    {
+        height: 100vh;
+        align-items: center;
+    }
 
+
+
+    /* Client section */
+    
+    .customer-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .customer-section img{
+        width: 100%;
+    }
     /* Footer */
     
     .contact-info {width: 100%;}
