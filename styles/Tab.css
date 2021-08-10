@@ -1,0 +1,44 @@
+@media screen  and (min-width : 480px) and (max-width: 769px)
+{
+    /* navbar */
+    
+    
+    nav h1{flex: 70%;}
+    nav li{display: block;}
+    .ham-container
+    {
+        display: block;
+        flex: 30%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    nav :last-child li
+    {
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    nav > :last-child{margin-right: 0;} 
+
+
+    /* Footer */
+    
+    .contact-info {width: 100%;}
+  
+}
+@media screen  and (min-width : 769px) and (max-width: 1200px)
+{
+    /* Footer */
+    .Flex-container
+    {
+    display: flex;
+    width: 90%;
+    }
+    .Flex-container
+    {
+        display: block;
+        width: 80%;
+    }
+    .contact-info {
+        width: 100%;
+    }
+}

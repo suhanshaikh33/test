@@ -1,0 +1,149 @@
+.card-section{
+    height: 65vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Quicksand','san-serif';
+}
+.flexbox{
+    display: flex;
+    height: 50%;
+    padding: 0 10vw;
+    justify-content: center;
+}
+.flexbox > *{
+    flex: 1;
+    border: 1px solid;
+    margin-right: 10px;
+    border-radius: 10px;
+    max-width: 300px;
+    min-width: 250px;
+    
+}
+.card{
+    position: relative;
+    background-color: rgb(53, 50, 50);
+    max-height: 300px;
+    display: flex;
+    align-items: center;
+    padding:0 10px;
+    overflow: hidden;
+}
+.card img{
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    object-fit: contain;
+    opacity: 20%;
+    padding-left: 0;
+}
+.card div{
+    position: relative;
+    color: white;
+    padding-left: 15px;
+    border-left: 1px solid rgb(143, 142, 142);
+    border-left-width: 30px;
+}
+.card h3{
+    margin-top: 0;
+}
+
+.card div>:last-child 
+{
+    margin-bottom: 0;
+}
+@media screen and (min-width:0px) and (max-width : 480px)  
+{
+    .card-section{
+        height: 100vh;
+    }
+    .flexbox
+    {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    .card{
+        flex: auto;
+        height: auto;
+        max-height:max-content;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        min-width: 150px;
+        border: 0;
+    }
+    .card img{
+        width: 70%;
+        left: 15%;
+        margin: 0 auto;
+    }
+    .card div
+    {
+        padding: 10px;
+        width: 100%;
+        overflow: hidden;
+     
+    }
+    .card div p,.card div h3
+    {
+        font-size: 14px;
+    }
+    .card div >:last-child{
+        margin-bottom: 0;
+        border: 1px solid white;
+        padding: 5px;
+        display: inline-block;
+    }
+
+    
+}
+@media screen and (min-width : 480px) and (max-width : 768px)  {
+    .card-section{
+        height: auto;
+    }
+    .flexbox{
+        display: flex;
+        flex-direction:column;
+        min-height: 150px;
+        margin-bottom: 10px;
+    }
+    .card{
+        margin: 0 auto;
+        min-height: 280px;
+        margin-bottom: 10px;
+        border: 0;
+    }
+    .card img{
+        width: 70%;
+        left: 15%;
+        margin: 0 auto;
+    }
+    .card div >:last-child{
+        margin-bottom: 0;
+    }
+    .card div{
+        width: 100%;
+        height: 100%;
+    }
+    .card > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+  
+}
+
+@media screen and (min-width : 768px) and (max-width : 1200px)  
+{
+    .card {
+        font-size: 15px;
+    }
+
+    .card div>:last-child {
+        margin-bottom: 0;
+    }
+
+}

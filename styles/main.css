@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand','san-serif'
+}
+ul li {
+    list-style: none;
+}
+
+section
+{
+ height: 100vh;   
+}
+
+/* SECTION 1 */
+
+
+
+.header-section{
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: auto;
+    z-index:2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(29, 29, 29, 0.563);
+    opacity: 100%;
+    font-family: 'Quicksand','san-serif';
+}
+nav h1{
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 25px;
+    padding: 20px 0 20px 20px;
+    font-weight: 800;
+}
+nav > :last-child{
+    text-align: right;
+}
+nav > :last-child li{
+font-size: 20px;
+padding-right: 10px;
+font-weight: 300;
+}
+
+nav > :last-child
+{
+    margin-right: 20px;
+}
+
+
+nav > *
+{
+    flex: 1;
+}
+nav li{
+    list-style: none;
+    display: inline;
+}
+.header-section > :nth-child(2) {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0%;
+}
+.header-section:nth-child(2) > div
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.image-wrapper div 
+{
+    width: 100%;
+    height :100%;
+    top: 0;
+    position: absolute;
+}
+.header-section > :nth-child(2) > div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ham-container{
+    display: none;
+}
+
+
+
+
+/* About company */
+.company-info{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    height: 35vh;
+}
+.company-info :only-child{
+    width: 60%;
+}
+.card-section
+{
+    font-family: 'Quicksand','san-serif';
+    align-items: flex-start;
+    margin-top: 40px;
+    
+}
+
+
+
+
+
+
+/* CLIENT SECTION */
+
+.Client-section
+{
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Quicksand','san-serif';
+}
+.Client-section > * {
+    height: 50%;
+}
+.Client-section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 40%;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.image-container p{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    line-height: 30px;
+    
+}
+.customer-section{
+    width: 100%;
+    text-align: center;
+}
+.customer-section img{
+    width: 80%;
+    height: 50%;
+}
+.customer-section :last-child{
+    padding-top: 3%;
+}
+.customer-section :last-child a{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER SECTION */
+
+
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand','san-serif';
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+footer h3{
+font-size: 18px;
+margin-bottom: 10px;
+
+}
+footer li{
+    line-height: 1.5em;
+    font-weight: 300;
+}
+.Flex-container{
+    display: flex;
+    width: 60%;
+    justify-content:space-between;
+}
+.Flex-container h3{
+    border-bottom: 1px solid gray;
+    
+} 
+.contact-info{
+    width: 28%;
+}
+.contact-info > :not(:first-child){
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.info-address span{
+    width: 60%;
+    padding-left: 10px;
+    font-weight: 300;
+}
+.info-mobile > :nth-child(2), .info-mail > :nth-child(2){
+    padding-left: 10px;
+    font-weight: 300;
+}
+
+.logo-container{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-address span{
+    width: 80%;
+}
+.fa-mobile-alt{
+    font-size: 30px;
+    
+}
+.fa-envelope{
+    font-size: 22px;
+    padding-right: 0px !important;
+}
+.fa-location-arrow{
+    font-size: 25px;
+}
+
+/* Media queries */
+
+/* mobile */
+
+

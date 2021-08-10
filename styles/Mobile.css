@@ -1,0 +1,85 @@
+@media screen and  (max-width:480px)
+{
+    
+/* navbar */
+
+    nav h1{
+        flex: 70%;
+    }
+    nav li 
+    {
+        display: block
+    }
+    .ham-container
+    {
+        display: block;
+        flex: 30%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav :last-child li
+    {
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    nav > :last-child
+    {
+    margin-right: 0;
+    }
+
+    .Flex-container
+    {
+    display: block;
+    width: 90%;
+    }
+    
+    /* Card section */
+    .company-info{
+        height: 100vh;
+        font-family: 'Quicksand','san-serif';
+    }
+    .company-info :only-child{
+        width: 90%;
+    }
+    .company-info h2{
+        border-bottom: 1px solid gray;
+        margin-bottom: 50px;
+    }
+    .about-wrapper{
+        height: auto;
+    }
+    .about-wrapper p,.about-wrapper h2
+    {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        
+    }
+    .about-wrapper h2{text-align: center;}
+
+    /* Client section */
+    
+    
+    .image-container p
+    {
+        line-height: 20px;
+        font-size: 12px;
+        width: 90%;
+    }
+    
+    
+    /* footer section */
+    
+    
+    .contact-info 
+    {
+        width: 100%;
+    }
+    .fa-mobile-alt,.fa-location-arrow
+    {
+            margin-left: -3px;
+    }
+    
+}
