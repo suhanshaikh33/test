@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="styles/Tab.css">
     <link rel="stylesheet" href="styles/card.css">
     <script src="https://kit.fontawesome.com/c42e4053e8.js" crossorigin="anonymous"></script>
+    
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
@@ -19,6 +21,12 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+
 </head>
 
 <body>
@@ -50,7 +58,7 @@
         </div>
     </section>
     <section class="company-info">
-        <div class="about-wrapper">
+        <div class="about-wrapper " data-aos="fade" data-aos-duration="2000">
             <h2>Welcome to Athar Technical LLC</h2>
             <p class="aboutcompany_info">ABCO Steel International Pvt. Ltd. is one of the leading steel trading
                 companies in India.
@@ -69,7 +77,7 @@
     </section>
     <section class="card-section">
         <div class="flexbox">
-            <div class="card">
+            <div class="card" data-aos="slide-right" data-aos-duration="2000">
                 <div>
                     <img src="images/tractor.png" alt="" srcset="">
                 </div>
@@ -81,7 +89,7 @@
                     <div><a>More details</a></div>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="slide-right" data-aos-duration="2000">
                 <div>
                     <img src="images/plugin.png" alt="" srcset="">
                 </div>
@@ -93,7 +101,7 @@
                         <div><a>More details</a></div>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="slide-right" data-aos-duration="2000">
                 <div>
                     <img src="images/business-and-trade.png" alt="" srcset="">
                 </div>
@@ -196,6 +204,11 @@
         </div>
     </footer>
     <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 
 </html>
